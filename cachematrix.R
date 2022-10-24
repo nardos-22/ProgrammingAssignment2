@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...) {
         if(!is.null(inv)) {                     ## checking whether inverse is Null
                 message("getting cached data!")
                 return(inv)
-        }
+        }  
         mat <- x$get()
         inv <- solve(mat, ...)             ## calculates inverse value
         x$setInverse(inv)
