@@ -1,4 +1,4 @@
-## 
+## to write a pair of functions, namely, "makeCacheMatrix" and "cacheSolve"
 ## that cache the inverse of a matrix
 
 ## makecachematric is a function which creates a special "matrix" object that can cache its inverse for the input
